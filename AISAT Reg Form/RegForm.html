@@ -1,0 +1,214 @@
+<html>
+    <head>
+        <title> Regform </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <div class="navbar">
+            <img class="aisatlogo" src="aisatlogo2.png">
+            <h1> <i> AISAT</i><hr></h1>
+            <p1><i> COLLEGE </i></p1>
+            <p2><i>LEARN MORE,</i></p2>
+            <p3><i> EXCEL MORE</i></p3>
+            <img class="pattern" src="pattern.png">
+            <img class="school" src="school1.jpg">
+            <img class="school1" src="school3.jpg">
+        </div>
+        <br>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="aisatpic8.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="aisatpic3.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="aisatpic4.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="aisatpic5.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="aisatpic6.jpg" style="width:100%">
+            </div>
+        </div>
+        <div class="bg"></div>
+        <br>
+        <div class="box"> <h2> <i> WE TEACH, YOU EXCEL.</i></h2>
+        </div>
+        <div class="contain">
+            <div class="contain1">
+                <div class="contain2">
+                <h3>Online Application</h3>
+                <p1>Kindly fill-out the application
+                    for a fast and efficient admissions
+                    procedure.</p1>
+                </div>
+                <div class="contain3">
+                <p2>What type of student are you?</p2></div>
+                    <div class="contain4">
+                        <form class="net">
+                            <div class="new1">
+                            <input type="radio" id="new" value="new" name="type" required>
+                            <label for="new">New Student</label><br>
+                            <input type="radio" id="existing" value="existing" name="type">
+                            <label for="existing">Existing Student</label><br>
+                            </div>
+                            <div class="custom-select">
+                                <label for="year">Year Level:</label><br>
+                                <select class="classic">
+                                    <option value="first">First Year</option>
+                                    <option value="second">Second Year</option>
+                                    <option value="third">Third Year</option>
+                                    <option value="fourth">Fourth Year</option>
+                                </select>
+                            </div>
+                            <div class="course-select">
+                                <label for="course">Preferred Course:</label><br>
+                                <select class="course1">
+                                    <br><option value="Accountancy">BS Accountancy</option>
+                                    <option value="Information">BS Accounting Information System</option>
+                                    <option value="Computer">BS Computer Science</option>
+                                    <option value="Office">BS Office Administration</option>
+                                    <option value="Tourism">BS Tourism Management</option>
+                                </select>
+                            </div>
+                            <div class="SI">
+                                <div class="icons">
+                                <i class="fa-solid fa-bars"></i><p>Student's Information</p>
+                                </div>
+                                <div class="SI1">
+                                    <div class="fn">First Name: <span style="color:red;">*</span><input type="text" class="form-control" id="fname" name="fname" placeholder="Given Name" maxlength="40" required value=""></div>
+                                    <div class="mn">Middle Name: <input type="text" class="form-control" id="mname" name="mname" placeholder="Middle Name" maxlength="40"></div>
+                                    <div class="ln">Last Name: <span style="color:red;">*</span><input type="text" class="form-control" id="lname" name="lname" placeholder="Surname" maxlength="40" required value=""></div>
+                                    <div class="sn">Suffix Name: <input type="text" class="form-control" id="sname" name="sname" maxlength="3" placeholder="(e.g. Jr.)"></div>
+                                    <div class="SI1">
+                                    <div class="gender">Gender: <span style="color:red;">*</span>
+                                        <select class="gender1" name="gender" required>
+                                            <option value="">Gender</option>
+                                            <option value="Male">Male</option>
+                                            <option value="Female">Female</option>
+                                        </select>
+                                    </div>
+                                    <div class="CS">Status: <span style="color:red;">*</span>
+                                        <select class="CS1" name="civil_status" required>
+                                            <option value="">Civil Status</option>
+                                            <option value="Single">Single</option>
+                                            <option value="Married">Married</option>
+                                        </select>
+                                    </div>
+                                    <div class="citzen">Citizenship: <span style="color:red;">*</span><input type="text" class="form-control" id="citizenship" name="citizenship" placeholder="Citizenship" maxlength="40" required></div>
+									<div class="DOB">Date of Birth: <span style="color:red;">*</span> <input data-provide="datepicker" class="form-control" name="bdate" id="bdate" placeholder="mm/dd/yyyy" maxlength="10" required></div> 
+                                    <div class="religion">Religion: <span style="color:red;">*</span><input type="text" class="form-control" id="religion" name="religion" placeholder="Religion" maxlength="40" required></div>                  
+                                    </div>
+                                </div>         
+                            </div>
+                            <div class="address">
+                                <div class="icons">
+                                    <i class="fa-solid fa-bars"></i><p>Address</p>
+                                </div>
+                                <div class="address1">
+                                    <div class="SU">Street # / Unit #: <span style="color:red;">*</span><input type="text" class="form-control" id="add_st_num" name="add_st_num" placeholder="" maxlength="20" required></div>
+                                    <div class="street">Street: <span style="color:red;">*</span><input type="text" class="form-control" id="add_st_name" name="add_st_name" placeholder="" maxlength="40" required></div>
+                                    <div class="sub">Subdivision / Village / Bldg.: <input type="text" class="form-control" id="add_subd" name="add_subd" maxlength="40" placeholder=""></div>
+                                    <div class="BGY">Barangay: <input type="text" class="form-control" id="add_brgy" name="add_brgy" placeholder="" maxlength="40" ></div>
+                                    <div class="city">City / Municipality: <span style="color:red;">*</span><input type="text" class="form-control" id="add_city" name="add_city" placeholder="" maxlength="60" required></div>
+                                    <div class="prov">Province: <input type="text" class="form-control" id="add_province" name="add_province" placeholder="" maxlength="60" ></div>
+                                    <div class="zip">Zip Code: <input type="text" class="form-control" id="add_zipcode" name="add_zipcode" placeholder="xxxx" oninput="this.value = this.value.replace(/[^0-9.]/g, ''); this.value = this.value.replace(/(\..*)\./g, '$1');"  onKeyDown="limitText(this,4);" onKeyUp="limitText(this,4);" min="4" maxlength="4" title="4 characters only"></div>
+                                </div> 
+                            </div>
+                            <div class="contact">
+                                <div class="icons">
+                                    <i class="fa-solid fa-bars"></i><p>Contact Details</p>
+                                </div>
+                                <div class="contact1">
+                                    <div class="tele">Telephone No.:<input type="text" class="form-control" id="telno" name="telno" maxlength="30"  placeholder="" oninput="this.value = this.value.replace(/[^0-9.]/g, ''); this.value = this.value.replace(/(\..*)\./g, '$1');"  onKeyDown="limitText(this,30);" onKeyUp="limitText(this,30);" title="Minimum 7 & Maximum 30 characters only" pattern=".{7,30}"></div>
+                                    <div class="mob">Mobile No.: <span style="color:red;">*</span><input type="text" class="form-control" id="mobno" name="mobno" placeholder="09XXxxxxxxx" maxlength="12" oninput="this.value = this.value.replace(/[^0-9.]/g, ''); this.value = this.value.replace(/(\..*)\./g, '$1');"  onKeyDown="limitText(this,12);" onKeyUp="limitText(this,12);" title="12 characters only" required value=""></div>
+                                    <div class="email">Email Address: <span style="color:red;">*</span><input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" maxlength="60" value="" required></div>
+                                </div>
+                            </div>
+                            <div class="PGINFO">
+                                <div class="icons">
+                                    <i class="fa-solid fa-bars"></i><p>Parents / Guardian's Information</p>
+                                </div>
+                                <div class="guard">                   
+                                    <div class="gfn">
+                                        First Name: <span style="color:red;">*</span>
+                                        <input type="text" class="form-control" name="guardiansname" id="guardiansname" placeholder="First Name" maxlength="50">
+                                    </div>
+                                    <div class="gln">
+                                        Last Name: <span style="color:red;">*</span>
+                                        <input type="text" class="form-control" name="guardianslname" id="guardianslname" placeholder="First Name" maxlength="50">
+                                    </div>
+                                    <div class="gmi">
+                                        Middle Initial:
+                                        <input type="text" class="form-control" name="guardiansmname" id="guardiansmname" placeholder="Middle initial" maxlength="3">
+                                    </div>
+                                    <div class="gs">
+                                        Suffix:
+                                        <input type="text" class="form-control" name="guardianssname" id="guardianssname" placeholder="Suffix" maxlength="3">
+                                    </div>                   
+                                    <div class="gmob">Mobile No.: <span style="color:red;">*</span><input type="text" class="form-control" id="mobno" name="mobno" placeholder="09XXxxxxxxx" maxlength="12" oninput="this.value = this.value.replace(/[^0-9.]/g, ''); this.value = this.value.replace(/(\..*)\./g, '$1');"  onKeyDown="limitText(this,12);" onKeyUp="limitText(this,12);" title="12 characters only" required value=""></div>
+          
+                                    <div class="gemail">Email Address: <span style="color:red;">*</span><input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" maxlength="60" value="" required></div>
+          
+                                    <div class="goccup">
+                                        Occupation:
+                                        <input type="text" class="form-control" name="guardiansoccupation" id="guardiansoccupation" placeholder="Occupation" maxlength="15">
+                                    </div>
+                                    <div class="grel">
+                                        Relationship:
+                                        <input type="text" class="form-control" name="guardiansrelationship" id="guardiansrelationship" placeholder="Relationship" maxlength="14">
+                                    </div>                                          
+                                </div>
+                            </div>
+                            <div class="COLS">
+                                <div class="icons">
+                                    <i class="fa-solid fa-bars"></i><p>Current or Last School Attended</p>
+                                </div>
+                                <div class="COLS1">
+                                    <div class="schtype">
+                                        School Type: <span style="color:red;">*</span>
+                                          <select class= "schtype1" name="lastsch_type" id="lastsch_type" class="form-control form-select" required>
+                                              <option value="">Please select type</option>
+                                              <option value="senior high school">Senior High School</option>
+                                              <option value="als/pept">Alternative Learning System Accreditation & Equivalency / Philippine Educational Philippine Test</option>
+                                              <option value="college">College</option>
+                                            </select>
+                                    </div>
+                                        <div class="NOS">
+                                            Name of School:<span style="color:red;">*</span> <input type="text" name="lastsch_name" id="lastsch_name" class="form-control" placeholder="Name of School" maxlength="90" required>
+                                        </div>                  
+                                        <div class="PTS">
+                                            Program / Track & Strand / Specialization:  <input type="text" name="lastsch_program" id="lastsch_program" class="form-control" placeholder="Program or Track" maxlength="90">
+                                        </div>  
+                                        <div class="DOG">
+                                            Date of Graduation:  <input data-provide="datepicker" class="form-control" name="lastsch_graddate" id="lastsch_graddate" placeholder="mm/dd/yyyy" maxlength="10">
+                                        </div>
+                                        <div class="YLG">
+                                            Year Level / Grade: <span style="color:red;">*</span>: 
+                  
+                                          <select class ="YLG1" name="lastsch_yrlevel" id="lastsch_yrlevel" class="form-control form-select" required>
+                                            <option value="">Select year / grade</option>
+                                            <option value="Grade 12">Grade 12</option>
+                                                <option value="4th Year HS">Fourth Year High School</option>
+                                                <option value="1st Year College">First Year College</option>
+                                                <option value="2nd Year College">Second Year College</option>
+                                                <option value="3rd Year College">Third Year College</option>
+                                                <option value="ALS">ALS</option>                                                             
+                                          </select>
+                                        </div>    
+                                  </div>    
+                                </div>    
+                            </div>
+                            <div class="subbtn">
+                                <ul><li><a href="Submit.html"><button role="link" type="button">Submit</button></a></li></ul>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        <script src="script.js"></script>
+    </body>
+</html>
